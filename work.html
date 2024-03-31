@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SheCodes Portfolio</title>
+    <title>Portfolio of work</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -30,6 +30,19 @@
     ></script>
   </head>
   <body>
+    <nav>
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+      <img src="images/logo.png" class="logo d-none d-md-block" alt="Siobhan logo" />
+      <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="Siobhan logo" />
+      <ul>
+        <li><a href="" title="Homepage">Home</a></li>
+        <li><a href="/about.html" title="About">About</a></li>
+        <li class="active"><a href="/work.html" title="Work">Work</a></li>
+        <li><a href="/contact.html" title="Contact">Contact</a></li>
+      </ul>
+    </nav>
+     </nav>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
@@ -38,7 +51,7 @@
             <img
               src="images/yogurt-1.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Yogurt preview"
             />
             <h3 class="text-center m-0">Yogurt Project</h3>
             <p class="text-center text-muted">Built with HTML & CSS</p>
@@ -47,7 +60,7 @@
             <img
               src="images/weather-1.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Weather preview"
             />
             <h3 class="text-center m-0">Weather Project</h3>
             <p class="text-center text-muted">
@@ -58,7 +71,7 @@
             <img
               src="images/dictionary-1.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Dictionary preview"
             />
             <h3 class="text-center m-0">Dictionary App</h3>
             <p class="text-center text-muted">Built with React</p>
@@ -67,13 +80,46 @@
             <img
               src="images/translation-1.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Translation preview"
             />
             <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center text-muted">Built with React</p>
           </div>
         </div>
       </div>
+     <footer class="container">
+
+<div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Enquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" 
+            class="btn btn-branding mt-3" 
+            title="Contact Siobhán"> Contact me </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+
+<a href="mailto:siomcgill@gmail.com" class="email-link" title="Email Siobhán">siomcgill@gmail.com</a>
+</div>
+<div class="social-links d-flex justify-content-center">
+ 
+ <a href="https://www.instagram.com/siomcgill15" target="_blank" title="Instagram profile">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="https://github.com/siomcgill15" target="_blank" title="GitHub profile">
+ <i class="fab fa-github"></i>
+</a>
+
+</div>
+<p class="text-center mt-5">
+  This project was coded by SheCodes, and it is 
+<a href="https://github.com/siomcgill15" target="_blank" title="GitHub profile">open sourced</a>
+</p>
+      </footer>
     </div>
   </body>
 </html>
